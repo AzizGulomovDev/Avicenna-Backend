@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-30 20:52+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\class\models.py:6 .\students\models.py:36 .\teacher\models.py:14
+msgid "Ism sharif"
+msgstr "почетное имя"
+
+#: .\class\models.py:7
+msgid "Ism sharifini kiriting ..."
+msgstr "Введите имя...."
+
+#: .\class\models.py:8 .\teacher\models.py:17
+msgid "Telefon raqami"
+msgstr "Номер телефона"
+
+#: .\class\models.py:8 .\teacher\models.py:17
+msgid "Telefon raqamini kiriting ..."
+msgstr "Введите свой номер телефона..."
+
+#: .\class\models.py:9
+msgid "O'qutuvchi haqida"
+msgstr "Информация об учителе"
+
+#: .\class\models.py:9
+msgid "O'qituvchi haqida ma'lumot"
+msgstr "Информация об учителе"
+
+#: .\class\models.py:14
+msgid "Tuitor "
+msgstr "Kлассный руководитель"
+
+#: .\class\models.py:15
+#, fuzzy
+#| msgid "Tuitor "
+msgid "Tuitorlar "
+msgstr "Kлассный руководитель"
+
+#: .\class\models.py:17
+msgid "Sinf nomi"
+msgstr "Имя класса"
+
+#: .\class\models.py:17
+msgid "Sinf nomini kiriting ..."
+msgstr "Введите название класса..."
+
+#: .\class\models.py:20
+msgid "Dars vaqti"
+msgstr "Время учебы"
+
+#: .\class\models.py:20
+msgid "Dars vaqtini kiriting"
+msgstr "Введите время занятий"
+
+#: .\class\models.py:25
+msgid "Sinfxona "
+msgstr "Учебный класс"
+
+#: .\class\models.py:26
+msgid "Sinfxonalar "
+msgstr "Классы"
+
+#: .\class\models.py:38
+msgid "Davomat"
+msgstr "Посещаемость"
+
+#: .\class\models.py:39
+#, fuzzy
+#| msgid "Davomat"
+msgid "Davomatlar"
+msgstr "Посещаемость"
+
+#: .\payment\models.py:11
+msgid "To'lov"
+msgstr "Payment"
+
+#: .\payment\models.py:12
+msgid "To'lovlar"
+msgstr "Payment"
+
+#: .\project\settings.py:148
+msgid "Russian"
+msgstr "Русский"
+
+#: .\project\settings.py:149
+msgid "English"
+msgstr "Английский"
+
+#: .\project\settings.py:215
+msgid "Home"
+msgstr "Главная "
+
+#: .\project\settings.py:218 .\project\settings.py:236
+msgid "Support"
+msgstr "Поддерживать"
+
+#: .\students\models.py:23
+msgid "Nomi"
+msgstr "Имя"
+
+#: .\students\models.py:24
+msgid "Nomini kiriiting ..."
+msgstr "Введите имя..."
+
+#: .\students\models.py:25
+msgid "Region"
+msgstr "Область"
+
+#: .\students\models.py:25
+msgid "Viloyatni kiriting ..."
+msgstr "Введите провинцию"
+
+#: .\students\models.py:26 .\students\models.py:39
+msgid "Manzil"
+msgstr "Адрес"
+
+#: .\students\models.py:26 .\students\models.py:39
+msgid "Manzilni kiriting ..."
+msgstr "Введите адрес"
+
+#: .\students\models.py:27 .\students\models.py:41
+msgid "Telefon raqam"
+msgstr "Номер телефона"
+
+#: .\students\models.py:27
+msgid "Telefon raqamni kiriting ..."
+msgstr "Введите номер телефона"
+
+#: .\students\models.py:32
+msgid "Ota ona "
+msgstr "Отец и мать"
+
+#: .\students\models.py:33
+msgid "Ota onalar "
+msgstr "Родители"
+
+#: .\students\models.py:37
+msgid "Ism sharifni kiriting ..."
+msgstr "Введите свое имя..."
+
+#: .\students\models.py:40
+msgid "Image"
+msgstr "Изображение"
+
+#: .\students\models.py:40
+msgid "Rasm yuklang ..."
+msgstr "Загрузить картинку..."
+
+#: .\students\models.py:55
+msgid "O'quvchi  "
+msgstr "Студент"
+
+#: .\students\models.py:56
+msgid "O'quvchilar "
+msgstr "Ученики"
+
+#: .\teacher\models.py:6
+msgid "Subject"
+msgstr "Предмет"
+
+#: .\teacher\models.py:6
+#, fuzzy
+#| msgid "Enter name"
+msgid "Enter subject name"
+msgstr "Введите имя"
+
+#: .\teacher\models.py:11 .\teacher\models.py:12
+msgid "Fanlar "
+msgstr ""
+
+#: .\teacher\models.py:14
+msgid "O'qituvchi ism sharifi ..."
+msgstr "Учителя зовут..."
+
+#: .\teacher\models.py:27
+msgid "O'qituvchi "
+msgstr "Учитель"
+
+#: .\teacher\models.py:28
+msgid "O'qituvchilar "
+msgstr "Учителя"
+
+#: .\url\models.py:10 .\url\models.py:11
+msgid "Bot foydalanuvchilari"
+msgstr "Пользователи ботов"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Enter name"
+#~ msgstr "Введите имя"
+
+#~ msgid "Phone number"
+#~ msgstr "Номер телефона"
+
+#~ msgid "Enter phone number"
+#~ msgstr "Введите номер телефона "
+
+#~ msgid "About tuitor"
+#~ msgstr "O классном руководителе"
+
+#~ msgid "Enter about tuitor"
+#~ msgstr "Введите информацию о классном руководителе"
+
+#~ msgid "Tuitors "
+#~ msgstr "классный руководитель"
+
+#~ msgid "Class name"
+#~ msgstr "Имя класса"
+
+#, fuzzy
+#~ msgid "Enter class name"
+#~ msgstr "Введите название класса"
+
+#~ msgid "Lesson time"
+#~ msgstr "Время урока "
+
+#, fuzzy
+#~ msgid "Enter lesson time"
+#~ msgstr "Введите название класса"
+
+#~ msgid "Classroom "
+#~ msgstr "Kласс"
+
+#~ msgid "Choose region"
+#~ msgstr "Выберите регион"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Enter address"
+#~ msgstr "Введите адрес"
+
+#~ msgid "Parent "
+#~ msgstr "Родитель "
+
+#~ msgid "Parents "
+#~ msgstr "Родители "
+
+#~ msgid "Upload image"
+#~ msgstr "Загрузить изображение"
+
+#~ msgid "Student "
+#~ msgstr "Студент "
+
+#~ msgid "Students "
+#~ msgstr "Студент "
+
+#~ msgid "Subject "
+#~ msgstr "Предмет"
+
+#~ msgid "Subjects "
+#~ msgstr "Предметы"
+
+#, fuzzy
+#~| msgid "Enter name"
+#~ msgid "Enter teacher name"
+#~ msgstr "Введите имя"
+
+#~ msgid "Teacher "
+#~ msgstr "Учитель"
+
+#~ msgid "Teachers "
+#~ msgstr "Учителя"
+
+#~ msgid "Date"
+#~ msgstr "Время"
+
+#, fuzzy
+#~| msgid "Teacher "
+#~ msgid "Teacher"
+#~ msgstr "Учитель"

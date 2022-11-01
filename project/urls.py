@@ -8,7 +8,7 @@ urlpatterns = i18n_patterns(
 
 )
 urlpatterns +=[
-    path('',admin.site.urls),
+    path('admin/',admin.site.urls),
     path('api/v1/',include('url.urls')),
     path('api/v2/',include('class.urls')),
     path('api/auth/',include('djoser.urls')),

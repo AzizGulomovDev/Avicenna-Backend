@@ -6,6 +6,10 @@ class ClassRoomSerializer(serializers.ModelSerializer):
         model = ClassRoom
         fields = '__all__'
         depth =1
+class DavomatNewSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Davomat
+        fields = '__all__'
 class DavomatSerializer(serializers.ModelSerializer):
     student = serializers.StringRelatedField()
     sinf = serializers.StringRelatedField()

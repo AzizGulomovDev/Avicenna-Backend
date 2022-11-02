@@ -32,7 +32,7 @@ class Davomat(models.Model):
     bool = models.BooleanField(default=False)
     sinf = models.ForeignKey(ClassRoom,on_delete=models.CASCADE)
     def __str__(self):
-        return self.sinf.name
+        return f"{self.sinf.name} - {self.student.name}"
     class Meta:
         db_table = "Davomat "
         verbose_name = _("Davomat")

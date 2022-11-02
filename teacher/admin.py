@@ -19,7 +19,7 @@ class BlokTestlarAdmin(ImportExportModelAdmin):
 @admin.register(FanTest)
 class FanTestAdmin(ImportExportModelAdmin):
     resource_class = FanTestResource
-    list_display = ['fan_nomi','test_kodi','sana']
+    list_display = ['fan_nomi','test_kodi','sana','oquvchi']
     list_filter = ['sana','test_kodi','fan_nomi']
     search_fields = ['fan_nomi','test_kodi','oquvchi']
 # Register your models here.
